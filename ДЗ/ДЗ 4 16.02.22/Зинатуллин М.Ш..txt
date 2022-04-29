@@ -1,0 +1,164 @@
+Тест-кейс
+________________
+
+
+Revision history
+--------------------------------------------------------
+Created on: 02/16/2022 by M.Zinatullin | New test case |
+--------------------------------------------------------
+
+TC ID: TK0001/22
+Priority: high
+Name: Check the possibility of broadcastint by the app 'Zoom'
+IDEA: The app 'Zoom' would be opened and connetion to the conference via internet could be established 
+AND additional info:
+login is e-mail // as example zinmarat@gmail.com
+password is ***** // some password
+Precondition: check the internet connection
+Epic: checking the ability to broadcast by the app 'Zoom'
+Lead time: >=30 sec
+
+
+
+Execution part
+--------------------------------------------------------
+PROCEDURE
+Step 0: click on the 'Zoom' app button on yor desktop;
+Step 1: click on 'Войти в' button;
+Step 2: insert e-mail at the window just under 'zoom' title;
+Step 3: insert password at the window below previous window;
+Step 4: press 'Enter' key OR click on 'Войти в' button after. You will see the new app window will be opened;
+Step 5: check online status. It indicates by green dot in the top right corner;
+Step 6: click on 'Новая конференция' button;
+Step 7: click on 'Войти с использование звука компьютера';
+Step 8: check that online status button from step 5 has changed to red one named as 'In a zoom meeting';
+Step 9: press combination 'Alt' + 'I' which would make possible to invite some new members at the conference;
+Step 10: click on 'Копировать ссылку приглашения' button placed in left bottom corner. In that momment URL link will be saved in the clipboard;
+Step 11: share the link to invite new members to the conference via messages, social networks, e-mail;
+
+EXPECTED RESULT
+--------------------------------------------------------
+Online broadcasting conference by 'Zoom' app has been established.
+
+
+Additional info
+--------------------------------------------------------
+name of the icons are placed here https://support.zoom.us/hc/en-us/articles/360032554051-Setting-your-presence-status
+
+
+===========================================================================
+
+
+Лист регистраций изменений
+----------------------------------------------------------------
+Создано: 16.02.2022 автор М.Зинатуллин | Новый тестовый пример |
+----------------------------------------------------------------
+
+Идентификатор ТК: TK0001/22
+Приоритет: высокий
+Название: Проверка возможности вести оналайн трансляцию через приложение Zoom.
+ИДЕЯ: Приложение «Zoom» будет открыто и можно будет подключиться к конференции через интернет.
+И дополнительная информация:
+логин это e-mail // например zinmarat@gmail.com
+пароль ***** // какой-то пароль
+Условие: проверьте подключение к Интернету
+Эпик: проверка возможности трансляции приложением «Zoom»
+Время выполнения: >=30 сек.
+
+
+
+Исполнительная часть
+-------------------------------------------------- ------
+ПРОЦЕДУРА
+Шаг 0: нажмите кнопку приложения «Zoom» на рабочем столе;
+Шаг 1: нажмите на кнопку «Войти»;
+Шаг 2: вставьте адрес электронной почты в окно сразу под заголовком «Zoom»;
+Шаг 3: введите пароль в окно под предыдущим окном;
+Шаг 4: нажмите клавишу «Enter» ИЛИ нажмите кнопку «Войти в». Вы увидите, что новое окно приложения будет открыто;
+Шаг 5: проверьте онлайн-статус. Обозначается зеленой точкой в ​​правом верхнем углу;
+Шаг 6: нажмите на кнопку «Новая конференция»;
+Шаг 7: нажмите «Войти с использованием звука компьютера»;
+Шаг 8: убедитесь, что кнопка онлайн-статуса из шага 5 изменилась на красную и называется «In a zoom meeting»;
+Шаг 9: нажмите комбинацию 'Alt' + 'I', что позволит пригласить новых участников на конференцию;
+Шаг 10: нажмите на кнопку «Копировать ссылку приглашения», расположенную в левом нижнем углу. В этот момент URL-ссылка будет сохранена в буфере обмена;
+Шаг 11: поделитесь ссылкой для приглашения новых участников в конференцию через сообщения, социальные сети, электронную почту;
+
+ОЖИДАЕМЫЙ РЕЗУЛЬТАТ
+-------------------------------------------------- ------
+Налажена онлайн-трансляция конференции через приложение «Zoom».
+
+
+Дополнительная информация
+-------------------------------------------------- ------
+здесь размещены названия иконок https://support.zoom.us/hc/en-us/articles/360032554051-Setting-your-presence-status
+
+
+
+Баг репорт
+________________
+
+Revision history
+--------------------------------------------------------
+Created on: 02/16/2022 by M.Zinatullin | New bug report |
+--------------------------------------------------------
+
+BR ID: BR0001/22
+[Epic: termination of 'М.Видео' app after refreshing 'Избранное' and switching to 'Сравнение']
+Sevirity: S2 - critical, app crash;
+Priority: urgent;
+Reproducibility: always;
+Env: test env;
+OS: iOS; // no data to define version more precisely
+Model: iPhone; // no data to define model more precisely
+Indication: incorrect work of the app;
+Possibility to workaround: no;
+Comment: no possibility to compare goods which leads to annoying by some users and desire not to use app so often.
+
+
+Execution part
+--------------------------------------------------------
+PROCEDURE
+Step 0: click on 'М.Видео' icon;
+Step 1: select 'Списки';
+Step 2: refresh this page by scrolling down;
+Step 3: swipe to 'Сравнение';
+
+EXPECTED RESULT
+It is expected to switch to 'Сравенение' page.
+
+ACTUAL RESULT
+Crash and termination of 'М.Видео' app.
+
+===========================================================================
+
+Лист регистраций изменений
+----------------------------------------------------------------
+Создано: 16.02.2022 автор М.Зинатуллин | Новый отчет об ошибке |
+----------------------------------------------------------------
+
+Идентификатор BR0001/22
+[Эпик: закрытие приложения «М.Видео» после обновления «Избранное» и перехода на «Сравнение»]
+Серьезность: S2 - критическая, сбой приложения;
+Приоритет: срочно;
+Воспроизводимость: всегда;
+Тестовый контур: тестовая среда;
+ОС: iOS; // нет данных для более точного определения версии
+Модель: iPhone; // нет данных для более точного определения модели
+Индикация: некорректная работа приложения;
+Возможность обхода: нет;
+Комментарий: нет возможности сравнивать товары, что вызывает раздражение у некоторых пользователей и желание не так часто пользоваться приложением.
+
+
+Исполнительная часть
+--------------------------------------------------------
+ПРОЦЕДУРА
+Шаг 0: нажмите на иконку «М.Видео»;
+Шаг 1: выберите «Списки»;
+Шаг 2: обновите эту страницу, прокрутив вниз;
+Шаг 3: проведите пальцем влево к вкладке «Сравнение»;
+
+ОЖИДАЕМЫЙ РЕЗУЛЬТАТ
+Ожидается переход на страницу «Сравение».
+
+ФАКТИЧЕСКИЙ РЕЗУЛЬТАТ
+Сбой и завершение работы приложения «М.Видео».

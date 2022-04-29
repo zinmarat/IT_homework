@@ -1,0 +1,848 @@
+{
+	"info": {
+		"_postman_id": "b7f6d891-01b9-45f5-9d05-0871f2b9db56",
+		"name": "Interceptor collection GISmeteo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Запрос погоды в Казани на 10 дней",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "sec-ch-ua",
+						"value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"99\", \"Google Chrome\";v=\"99\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "DNT",
+						"value": "1"
+					},
+					{
+						"key": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36"
+					},
+					{
+						"key": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "none"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "navigate"
+					},
+					{
+						"key": "Sec-Fetch-User",
+						"value": "?1"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "document"
+					}
+				],
+				"url": {
+					"raw": "https://www.gismeteo.ru/weather-kazan-4364/10-days/",
+					"protocol": "https",
+					"host": [
+						"www",
+						"gismeteo",
+						"ru"
+					],
+					"path": [
+						"weather-kazan-4364",
+						"10-days",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Какой-то спрайт?",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "sec-ch-ua",
+						"value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"99\", \"Google Chrome\";v=\"99\""
+					},
+					{
+						"key": "DNT",
+						"value": "1"
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "Accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					}
+				],
+				"url": {
+					"raw": "https://www.gismeteo.ru/ngamg/assets/sprite-v2.min.svg",
+					"protocol": "https",
+					"host": [
+						"www",
+						"gismeteo",
+						"ru"
+					],
+					"path": [
+						"ngamg",
+						"assets",
+						"sprite-v2.min.svg"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Что-то от Яндекса 1",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "sec-ch-ua",
+						"value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"99\", \"Google Chrome\";v=\"99\""
+					},
+					{
+						"key": "DNT",
+						"value": "1"
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "Accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "cross-site"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					}
+				],
+				"url": {
+					"raw": "https://mc.yandex.ru/watch/39370095?wmode=7&page-url=https%3A%2F%2Fwww.gismeteo.ru%2Fweather-kazan-4364%2F10-days%2F&charset=utf-8&site-info=%7B%22Site%22%3A%7B%22Version%22%3A%22desktop%22%2C%22Project%22%3A%22weather%22%7D%7D&ut=noindex&browser-info=pv%3A1%3Agdpr%3A14%3Avf%3A7oivoclvhnrnrlctj3z%3Afp%3A473%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-GB%3Av%3A760%3Acn%3A1%3Adp%3A0%3Als%3A449052905276%3Ahid%3A952782118%3Az%3A180%3Ai%3A20220317123719%3Aet%3A1647509839%3Ac%3A1%3Arn%3A34811072%3Arqn%3A252%3Au%3A1646644171811383691%3Aw%3A1920x929%3As%3A1920x1080x24%3Ask%3A1%3Acpf%3A1%3Ans%3A1647509838852%3Ads%3A5%2C36%2C34%2C17%2C1%2C0%2C%2C%2C%2C%2C%2C%2C%3Awv%3A2%3Aco%3A0%3Aadb%3A1%3Arqnl%3A1%3Ast%3A1647509839%3At%3AGISMETEO%3A%20%D0%9F%D0%BE%D0%B3%D0%BE%D0%B4%D0%B0%20%D0%B2%20%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%20%D0%BD%D0%B0%2010%20%D0%B4%D0%BD%D0%B5%D0%B9%2C%20%D0%BF%D1%80%D0%BE%D0%B3%D0%BD%D0%BE%D0%B7%20%D0%BF%D0%BE%D0%B3%D0%BE%D0%B4%D1%8B%20%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D1%8C%20%D0%BD%D0%B0%2010%20%D0%B4%D0%BD%D0%B5%D0%B9%2C%20%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D1%8C%20(%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D1%81%D0%BA%D0%BE%D0%B9%20%D0%BE%D0%BA%D1%80%D1%83%D0%B3)%2C%20%D0%A0%D0%B5%D1%81%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0%20%D0%A2%D0%B0%D1%82%D0%B0%D1%80%D1%81%D1%82%D0%B0%D0%BD%2C%20%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F.&t=gdpr(14)aw(1)ti(2)",
+					"protocol": "https",
+					"host": [
+						"mc",
+						"yandex",
+						"ru"
+					],
+					"path": [
+						"watch",
+						"39370095"
+					],
+					"query": [
+						{
+							"key": "wmode",
+							"value": "7"
+						},
+						{
+							"key": "page-url",
+							"value": "https%3A%2F%2Fwww.gismeteo.ru%2Fweather-kazan-4364%2F10-days%2F"
+						},
+						{
+							"key": "charset",
+							"value": "utf-8"
+						},
+						{
+							"key": "site-info",
+							"value": "%7B%22Site%22%3A%7B%22Version%22%3A%22desktop%22%2C%22Project%22%3A%22weather%22%7D%7D"
+						},
+						{
+							"key": "ut",
+							"value": "noindex"
+						},
+						{
+							"key": "browser-info",
+							"value": "pv%3A1%3Agdpr%3A14%3Avf%3A7oivoclvhnrnrlctj3z%3Afp%3A473%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-GB%3Av%3A760%3Acn%3A1%3Adp%3A0%3Als%3A449052905276%3Ahid%3A952782118%3Az%3A180%3Ai%3A20220317123719%3Aet%3A1647509839%3Ac%3A1%3Arn%3A34811072%3Arqn%3A252%3Au%3A1646644171811383691%3Aw%3A1920x929%3As%3A1920x1080x24%3Ask%3A1%3Acpf%3A1%3Ans%3A1647509838852%3Ads%3A5%2C36%2C34%2C17%2C1%2C0%2C%2C%2C%2C%2C%2C%2C%3Awv%3A2%3Aco%3A0%3Aadb%3A1%3Arqnl%3A1%3Ast%3A1647509839%3At%3AGISMETEO%3A%20%D0%9F%D0%BE%D0%B3%D0%BE%D0%B4%D0%B0%20%D0%B2%20%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%20%D0%BD%D0%B0%2010%20%D0%B4%D0%BD%D0%B5%D0%B9%2C%20%D0%BF%D1%80%D0%BE%D0%B3%D0%BD%D0%BE%D0%B7%20%D0%BF%D0%BE%D0%B3%D0%BE%D0%B4%D1%8B%20%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D1%8C%20%D0%BD%D0%B0%2010%20%D0%B4%D0%BD%D0%B5%D0%B9%2C%20%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D1%8C%20(%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D1%81%D0%BA%D0%BE%D0%B9%20%D0%BE%D0%BA%D1%80%D1%83%D0%B3)%2C%20%D0%A0%D0%B5%D1%81%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0%20%D0%A2%D0%B0%D1%82%D0%B0%D1%80%D1%81%D1%82%D0%B0%D0%BD%2C%20%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F."
+						},
+						{
+							"key": "t",
+							"value": "gdpr(14)aw(1)ti(2)"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Что-то от Яндекса 2",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "sec-ch-ua",
+						"value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"99\", \"Google Chrome\";v=\"99\""
+					},
+					{
+						"key": "DNT",
+						"value": "1"
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "Accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "cross-site"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					}
+				],
+				"url": {
+					"raw": "https://mc.yandex.ru/watch/53941180?wmode=7&page-url=https%3A%2F%2Fwww.gismeteo.ru%2Fweather-kazan-4364%2F10-days%2F&charset=utf-8&site-info=%7B%22Site%22%3A%7B%22Version%22%3A%22desktop%22%2C%22Project%22%3A%22weather%22%7D%7D&ut=noindex&browser-info=pv%3A1%3Agdpr%3A14%3Avf%3A7oivoclvhnrnrlctj3z%3Afp%3A473%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-GB%3Av%3A760%3Acn%3A2%3Adp%3A0%3Als%3A33709293719%3Ahid%3A952782118%3Az%3A180%3Ai%3A20220317123719%3Aet%3A1647509839%3Ac%3A1%3Arn%3A1061960157%3Arqn%3A15%3Au%3A1646644171811383691%3Aw%3A1920x929%3As%3A1920x1080x24%3Ask%3A1%3Acpf%3A1%3Ans%3A1647509838852%3Ads%3A5%2C36%2C34%2C17%2C1%2C0%2C%2C%2C%2C%2C%2C%2C%3Awv%3A2%3Aco%3A0%3Aadb%3A1%3Arqnl%3A1%3Ast%3A1647509839%3At%3AGISMETEO%3A%20%D0%9F%D0%BE%D0%B3%D0%BE%D0%B4%D0%B0%20%D0%B2%20%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%20%D0%BD%D0%B0%2010%20%D0%B4%D0%BD%D0%B5%D0%B9%2C%20%D0%BF%D1%80%D0%BE%D0%B3%D0%BD%D0%BE%D0%B7%20%D0%BF%D0%BE%D0%B3%D0%BE%D0%B4%D1%8B%20%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D1%8C%20%D0%BD%D0%B0%2010%20%D0%B4%D0%BD%D0%B5%D0%B9%2C%20%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D1%8C%20(%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D1%81%D0%BA%D0%BE%D0%B9%20%D0%BE%D0%BA%D1%80%D1%83%D0%B3)%2C%20%D0%A0%D0%B5%D1%81%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0%20%D0%A2%D0%B0%D1%82%D0%B0%D1%80%D1%81%D1%82%D0%B0%D0%BD%2C%20%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F.&t=gdpr(14)aw(1)ti(2)",
+					"protocol": "https",
+					"host": [
+						"mc",
+						"yandex",
+						"ru"
+					],
+					"path": [
+						"watch",
+						"53941180"
+					],
+					"query": [
+						{
+							"key": "wmode",
+							"value": "7"
+						},
+						{
+							"key": "page-url",
+							"value": "https%3A%2F%2Fwww.gismeteo.ru%2Fweather-kazan-4364%2F10-days%2F"
+						},
+						{
+							"key": "charset",
+							"value": "utf-8"
+						},
+						{
+							"key": "site-info",
+							"value": "%7B%22Site%22%3A%7B%22Version%22%3A%22desktop%22%2C%22Project%22%3A%22weather%22%7D%7D"
+						},
+						{
+							"key": "ut",
+							"value": "noindex"
+						},
+						{
+							"key": "browser-info",
+							"value": "pv%3A1%3Agdpr%3A14%3Avf%3A7oivoclvhnrnrlctj3z%3Afp%3A473%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-GB%3Av%3A760%3Acn%3A2%3Adp%3A0%3Als%3A33709293719%3Ahid%3A952782118%3Az%3A180%3Ai%3A20220317123719%3Aet%3A1647509839%3Ac%3A1%3Arn%3A1061960157%3Arqn%3A15%3Au%3A1646644171811383691%3Aw%3A1920x929%3As%3A1920x1080x24%3Ask%3A1%3Acpf%3A1%3Ans%3A1647509838852%3Ads%3A5%2C36%2C34%2C17%2C1%2C0%2C%2C%2C%2C%2C%2C%2C%3Awv%3A2%3Aco%3A0%3Aadb%3A1%3Arqnl%3A1%3Ast%3A1647509839%3At%3AGISMETEO%3A%20%D0%9F%D0%BE%D0%B3%D0%BE%D0%B4%D0%B0%20%D0%B2%20%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%20%D0%BD%D0%B0%2010%20%D0%B4%D0%BD%D0%B5%D0%B9%2C%20%D0%BF%D1%80%D0%BE%D0%B3%D0%BD%D0%BE%D0%B7%20%D0%BF%D0%BE%D0%B3%D0%BE%D0%B4%D1%8B%20%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D1%8C%20%D0%BD%D0%B0%2010%20%D0%B4%D0%BD%D0%B5%D0%B9%2C%20%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D1%8C%20(%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D1%81%D0%BA%D0%BE%D0%B9%20%D0%BE%D0%BA%D1%80%D1%83%D0%B3)%2C%20%D0%A0%D0%B5%D1%81%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0%20%D0%A2%D0%B0%D1%82%D0%B0%D1%80%D1%81%D1%82%D0%B0%D0%BD%2C%20%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F."
+						},
+						{
+							"key": "t",
+							"value": "gdpr(14)aw(1)ti(2)"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Что-то от Яндекса 3",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "sec-ch-ua",
+						"value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"99\", \"Google Chrome\";v=\"99\""
+					},
+					{
+						"key": "DNT",
+						"value": "1"
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "Accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "cross-site"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					}
+				],
+				"url": {
+					"raw": "https://mc.yandex.ru/watch/55254403?wmode=7&page-url=https%3A%2F%2Fwww.gismeteo.ru%2Fweather-kazan-4364%2F10-days%2F&charset=utf-8&site-info=%7B%22Site%22%3A%7B%22Version%22%3A%22desktop%22%2C%22Project%22%3A%22weather%22%7D%7D&ut=noindex&browser-info=pv%3A1%3Agdpr%3A14%3Avf%3A7oivoclvhnrnrlctj3z%3Afp%3A473%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-GB%3Av%3A760%3Acn%3A3%3Adp%3A0%3Als%3A1464000357370%3Ahid%3A952782118%3Az%3A180%3Ai%3A20220317123719%3Aet%3A1647509839%3Ac%3A1%3Arn%3A221849997%3Arqn%3A15%3Au%3A1646644171811383691%3Aw%3A1920x929%3As%3A1920x1080x24%3Ask%3A1%3Acpf%3A1%3Ans%3A1647509838852%3Ads%3A5%2C36%2C34%2C17%2C1%2C0%2C%2C%2C%2C%2C%2C%2C%3Awv%3A2%3Aco%3A0%3Aadb%3A1%3Arqnl%3A1%3Ast%3A1647509839%3At%3AGISMETEO%3A%20%D0%9F%D0%BE%D0%B3%D0%BE%D0%B4%D0%B0%20%D0%B2%20%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%20%D0%BD%D0%B0%2010%20%D0%B4%D0%BD%D0%B5%D0%B9%2C%20%D0%BF%D1%80%D0%BE%D0%B3%D0%BD%D0%BE%D0%B7%20%D0%BF%D0%BE%D0%B3%D0%BE%D0%B4%D1%8B%20%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D1%8C%20%D0%BD%D0%B0%2010%20%D0%B4%D0%BD%D0%B5%D0%B9%2C%20%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D1%8C%20(%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D1%81%D0%BA%D0%BE%D0%B9%20%D0%BE%D0%BA%D1%80%D1%83%D0%B3)%2C%20%D0%A0%D0%B5%D1%81%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0%20%D0%A2%D0%B0%D1%82%D0%B0%D1%80%D1%81%D1%82%D0%B0%D0%BD%2C%20%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F.&t=gdpr(14)aw(1)ti(2)",
+					"protocol": "https",
+					"host": [
+						"mc",
+						"yandex",
+						"ru"
+					],
+					"path": [
+						"watch",
+						"55254403"
+					],
+					"query": [
+						{
+							"key": "wmode",
+							"value": "7"
+						},
+						{
+							"key": "page-url",
+							"value": "https%3A%2F%2Fwww.gismeteo.ru%2Fweather-kazan-4364%2F10-days%2F"
+						},
+						{
+							"key": "charset",
+							"value": "utf-8"
+						},
+						{
+							"key": "site-info",
+							"value": "%7B%22Site%22%3A%7B%22Version%22%3A%22desktop%22%2C%22Project%22%3A%22weather%22%7D%7D"
+						},
+						{
+							"key": "ut",
+							"value": "noindex"
+						},
+						{
+							"key": "browser-info",
+							"value": "pv%3A1%3Agdpr%3A14%3Avf%3A7oivoclvhnrnrlctj3z%3Afp%3A473%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-GB%3Av%3A760%3Acn%3A3%3Adp%3A0%3Als%3A1464000357370%3Ahid%3A952782118%3Az%3A180%3Ai%3A20220317123719%3Aet%3A1647509839%3Ac%3A1%3Arn%3A221849997%3Arqn%3A15%3Au%3A1646644171811383691%3Aw%3A1920x929%3As%3A1920x1080x24%3Ask%3A1%3Acpf%3A1%3Ans%3A1647509838852%3Ads%3A5%2C36%2C34%2C17%2C1%2C0%2C%2C%2C%2C%2C%2C%2C%3Awv%3A2%3Aco%3A0%3Aadb%3A1%3Arqnl%3A1%3Ast%3A1647509839%3At%3AGISMETEO%3A%20%D0%9F%D0%BE%D0%B3%D0%BE%D0%B4%D0%B0%20%D0%B2%20%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%20%D0%BD%D0%B0%2010%20%D0%B4%D0%BD%D0%B5%D0%B9%2C%20%D0%BF%D1%80%D0%BE%D0%B3%D0%BD%D0%BE%D0%B7%20%D0%BF%D0%BE%D0%B3%D0%BE%D0%B4%D1%8B%20%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D1%8C%20%D0%BD%D0%B0%2010%20%D0%B4%D0%BD%D0%B5%D0%B9%2C%20%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D1%8C%20(%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D1%81%D0%BA%D0%BE%D0%B9%20%D0%BE%D0%BA%D1%80%D1%83%D0%B3)%2C%20%D0%A0%D0%B5%D1%81%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0%20%D0%A2%D0%B0%D1%82%D0%B0%D1%80%D1%81%D1%82%D0%B0%D0%BD%2C%20%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F."
+						},
+						{
+							"key": "t",
+							"value": "gdpr(14)aw(1)ti(2)"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Гугл аналитика",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "sec-ch-ua",
+						"value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"99\", \"Google Chrome\";v=\"99\""
+					},
+					{
+						"key": "DNT",
+						"value": "1"
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "Content-Type",
+						"value": "text/plain"
+					},
+					{
+						"key": "Accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "cross-site"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://www.google-analytics.com/j/collect?v=1&_v=j96&aip=0&a=543747385&t=pageview&ds=desktop.weather&_s=1&dl=https%3A%2F%2Fwww.gismeteo.ru%2Fweather-kazan-4364%2F10-days%2F&dp=%2Fweather-kazan-4364%2F10-days%2F&ul=en-gb&de=UTF-8&dt=GISMETEO%3A%20%D0%9F%D0%BE%D0%B3%D0%BE%D0%B4%D0%B0%20%D0%B2%20%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%20%D0%BD%D0%B0%2010%20%D0%B4%D0%BD%D0%B5%D0%B9%2C%20%D0%BF%D1%80%D0%BE%D0%B3%D0%BD%D0%BE%D0%B7%20%D0%BF%D0%BE%D0%B3%D0%BE%D0%B4%D1%8B%20%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D1%8C%20%D0%BD%D0%B0%2010%20%D0%B4%D0%BD%D0%B5%D0%B9%2C%20%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D1%8C%20(%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D1%81%D0%BA%D0%BE%D0%B9%20%D0%BE%D0%BA%D1%80%D1%83%D0%B3)%2C%20%D0%A0%D0%B5%D1%81%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0%20%D0%A2%D0%B0%D1%82%D0%B0%D1%80%D1%81%D1%82%D0%B0%D0%BD%2C%20%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F.&sd=24-bit&sr=1920x1080&vp=1920x929&je=0&_u=QACAAUABAAAAAC~&jid=1899257733&gjid=775753214&cid=2074202247.1646644171&tid=UA-12105830-1&_gid=1061344500.1647509413&_r=1&z=868823479",
+					"protocol": "https",
+					"host": [
+						"www",
+						"google-analytics",
+						"com"
+					],
+					"path": [
+						"j",
+						"collect"
+					],
+					"query": [
+						{
+							"key": "v",
+							"value": "1"
+						},
+						{
+							"key": "_v",
+							"value": "j96"
+						},
+						{
+							"key": "aip",
+							"value": "0"
+						},
+						{
+							"key": "a",
+							"value": "543747385"
+						},
+						{
+							"key": "t",
+							"value": "pageview"
+						},
+						{
+							"key": "ds",
+							"value": "desktop.weather"
+						},
+						{
+							"key": "_s",
+							"value": "1"
+						},
+						{
+							"key": "dl",
+							"value": "https%3A%2F%2Fwww.gismeteo.ru%2Fweather-kazan-4364%2F10-days%2F"
+						},
+						{
+							"key": "dp",
+							"value": "%2Fweather-kazan-4364%2F10-days%2F"
+						},
+						{
+							"key": "ul",
+							"value": "en-gb"
+						},
+						{
+							"key": "de",
+							"value": "UTF-8"
+						},
+						{
+							"key": "dt",
+							"value": "GISMETEO%3A%20%D0%9F%D0%BE%D0%B3%D0%BE%D0%B4%D0%B0%20%D0%B2%20%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%20%D0%BD%D0%B0%2010%20%D0%B4%D0%BD%D0%B5%D0%B9%2C%20%D0%BF%D1%80%D0%BE%D0%B3%D0%BD%D0%BE%D0%B7%20%D0%BF%D0%BE%D0%B3%D0%BE%D0%B4%D1%8B%20%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D1%8C%20%D0%BD%D0%B0%2010%20%D0%B4%D0%BD%D0%B5%D0%B9%2C%20%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D1%8C%20(%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D1%81%D0%BA%D0%BE%D0%B9%20%D0%BE%D0%BA%D1%80%D1%83%D0%B3)%2C%20%D0%A0%D0%B5%D1%81%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0%20%D0%A2%D0%B0%D1%82%D0%B0%D1%80%D1%81%D1%82%D0%B0%D0%BD%2C%20%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F."
+						},
+						{
+							"key": "sd",
+							"value": "24-bit"
+						},
+						{
+							"key": "sr",
+							"value": "1920x1080"
+						},
+						{
+							"key": "vp",
+							"value": "1920x929"
+						},
+						{
+							"key": "je",
+							"value": "0"
+						},
+						{
+							"key": "_u",
+							"value": "QACAAUABAAAAAC~"
+						},
+						{
+							"key": "jid",
+							"value": "1899257733"
+						},
+						{
+							"key": "gjid",
+							"value": "775753214"
+						},
+						{
+							"key": "cid",
+							"value": "2074202247.1646644171"
+						},
+						{
+							"key": "tid",
+							"value": "UA-12105830-1"
+						},
+						{
+							"key": "_gid",
+							"value": "1061344500.1647509413"
+						},
+						{
+							"key": "_r",
+							"value": "1"
+						},
+						{
+							"key": "z",
+							"value": "868823479"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Какая-то статистика?",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "sec-ch-ua",
+						"value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"99\", \"Google Chrome\";v=\"99\""
+					},
+					{
+						"key": "DNT",
+						"value": "1"
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "Content-Type",
+						"value": "text/plain"
+					},
+					{
+						"key": "Accept",
+						"value": "*/*"
+					},
+					{
+						"key": "X-Client-Data",
+						"value": "CJC2yQEIo7bJAQjBtskBCKmdygEInvnLAQjnhMwBCM+izAE="
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "cross-site"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j96&tid=UA-12105830-1&cid=2074202247.1646644171&jid=1899257733&gjid=775753214&_gid=1061344500.1647509413&_u=QACAAUAAAAAAAC~&z=1908729437",
+					"protocol": "https",
+					"host": [
+						"stats",
+						"g",
+						"doubleclick",
+						"net"
+					],
+					"path": [
+						"j",
+						"collect"
+					],
+					"query": [
+						{
+							"key": "t",
+							"value": "dc"
+						},
+						{
+							"key": "aip",
+							"value": "1"
+						},
+						{
+							"key": "_r",
+							"value": "3"
+						},
+						{
+							"key": "v",
+							"value": "1"
+						},
+						{
+							"key": "_v",
+							"value": "j96"
+						},
+						{
+							"key": "tid",
+							"value": "UA-12105830-1"
+						},
+						{
+							"key": "cid",
+							"value": "2074202247.1646644171"
+						},
+						{
+							"key": "jid",
+							"value": "1899257733"
+						},
+						{
+							"key": "gjid",
+							"value": "775753214"
+						},
+						{
+							"key": "_gid",
+							"value": "1061344500.1647509413"
+						},
+						{
+							"key": "_u",
+							"value": "QACAAUAAAAAAAC~"
+						},
+						{
+							"key": "z",
+							"value": "1908729437"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Реклама от Criteo 1",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "sec-ch-ua",
+						"value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"99\", \"Google Chrome\";v=\"99\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"key": "DNT",
+						"value": "1"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36"
+					},
+					{
+						"key": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "cross-site"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "navigate"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "iframe"
+					}
+				],
+				"url": {
+					"raw": "https://gum.criteo.com/syncframe?origin=publishertag&topUrl=www.gismeteo.ru#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22mMxZwF80Q28lMkIyUXhKVnJkJTJCVlZGV0hwblhsYkdqbk1MN3Vmb09XJTJGaGpwaVFYb0JqVmdndFc2OXVaVDZlWjg4aHdOUG1RU0FHbjZuT3M1S3pPUSUyRmElMkZKMXUwRnNOTXd4VEdBUmlvSmJlc1hkZ3RuJTJGNWVERldscVFEUndZcDRpWjVWc0dmSlhwWnhKUVFlbWFQOFMlMkZRJTJGUE5qY0t3JTNEJTNE%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22gismeteo.ru%22,%22topUrl%22:%22www.gismeteo.ru%22,%22version%22:121,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.23073559362849272%22}",
+					"protocol": "https",
+					"host": [
+						"gum",
+						"criteo",
+						"com"
+					],
+					"path": [
+						"syncframe"
+					],
+					"query": [
+						{
+							"key": "origin",
+							"value": "publishertag"
+						},
+						{
+							"key": "topUrl",
+							"value": "www.gismeteo.ru"
+						}
+					],
+					"hash": "{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22mMxZwF80Q28lMkIyUXhKVnJkJTJCVlZGV0hwblhsYkdqbk1MN3Vmb09XJTJGaGpwaVFYb0JqVmdndFc2OXVaVDZlWjg4aHdOUG1RU0FHbjZuT3M1S3pPUSUyRmElMkZKMXUwRnNOTXd4VEdBUmlvSmJlc1hkZ3RuJTJGNWVERldscVFEUndZcDRpWjVWc0dmSlhwWnhKUVFlbWFQOFMlMkZRJTJGUE5qY0t3JTNEJTNE%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22gismeteo.ru%22,%22topUrl%22:%22www.gismeteo.ru%22,%22version%22:121,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.23073559362849272%22}"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Реклама от Criteo 2",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "sec-ch-ua",
+						"value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"99\", \"Google Chrome\";v=\"99\""
+					},
+					{
+						"key": "DNT",
+						"value": "1"
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "Accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					}
+				],
+				"url": {
+					"raw": "https://gum.criteo.com/sid/json?origin=publishertag&domain=gismeteo.ru&sn=ChromeSyncframe&so=3&topUrl=www.gismeteo.ru&bundle=mMxZwF80Q28lMkIyUXhKVnJkJTJCVlZGV0hwblhsYkdqbk1MN3Vmb09XJTJGaGpwaVFYb0JqVmdndFc2OXVaVDZlWjg4aHdOUG1RU0FHbjZuT3M1S3pPUSUyRmElMkZKMXUwRnNOTXd4VEdBUmlvSmJlc1hkZ3RuJTJGNWVERldscVFEUndZcDRpWjVWc0dmSlhwWnhKUVFlbWFQOFMlMkZRJTJGUE5qY0t3JTNEJTNE&cw=1&lsw=1",
+					"protocol": "https",
+					"host": [
+						"gum",
+						"criteo",
+						"com"
+					],
+					"path": [
+						"sid",
+						"json"
+					],
+					"query": [
+						{
+							"key": "origin",
+							"value": "publishertag"
+						},
+						{
+							"key": "domain",
+							"value": "gismeteo.ru"
+						},
+						{
+							"key": "sn",
+							"value": "ChromeSyncframe"
+						},
+						{
+							"key": "so",
+							"value": "3"
+						},
+						{
+							"key": "topUrl",
+							"value": "www.gismeteo.ru"
+						},
+						{
+							"key": "bundle",
+							"value": "mMxZwF80Q28lMkIyUXhKVnJkJTJCVlZGV0hwblhsYkdqbk1MN3Vmb09XJTJGaGpwaVFYb0JqVmdndFc2OXVaVDZlWjg4aHdOUG1RU0FHbjZuT3M1S3pPUSUyRmElMkZKMXUwRnNOTXd4VEdBUmlvSmJlc1hkZ3RuJTJGNWVERldscVFEUndZcDRpWjVWc0dmSlhwWnhKUVFlbWFQOFMlMkZRJTJGUE5qY0t3JTNEJTNE"
+						},
+						{
+							"key": "cw",
+							"value": "1"
+						},
+						{
+							"key": "lsw",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
